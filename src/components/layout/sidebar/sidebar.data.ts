@@ -1,4 +1,4 @@
-import { FRIENDS, MAIN, PHONE, SETTINGS } from '@/configs/index.config'
+import { CHATS, FRIENDS, PHONE, SETTINGS } from '@/configs/index.config'
 import { MessagesSquare, Phone, Settings, Users2 } from 'lucide-react'
 
 export const MENU = [
@@ -16,7 +16,7 @@ export const MENU = [
 
 	{
 		id: 3,
-		url: MAIN,
+		url: CHATS,
 		Icon: MessagesSquare,
 	},
 
